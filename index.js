@@ -13,6 +13,6 @@ app.get("/01", (req, res) => {
   });
 });
 
-// app.listen(PORT, () => {
-//   console.log(`Listen on http://localhost:${PORT}`);
-// });
+app.listen(PORT, () => {
+  console.log(`Listen on http://localhost:${PORT}`);
+});
