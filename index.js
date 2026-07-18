@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 
 app.get("/01", (req, res) => {
   res.send({
-    name: "Menghour",
+    name: "Menghour!",
   });
 });
 
